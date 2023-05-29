@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ac23312.css",
-    "main.js": "/static/js/main.d8539abe.js",
-    "index.html": "/index.html",
-    "main.4ac23312.css.map": "/static/css/main.4ac23312.css.map",
-    "main.d8539abe.js.map": "/static/js/main.d8539abe.js.map"
+    "main.css": "/meal_cart_app/static/css/main.4ac23312.css",
+    "main.js": "/meal_cart_app/static/js/main.d8539abe.js",
+    "index.html": "/meal_cart_app/index.html",
+    "main.4ac23312.css.map": "/meal_cart_app/static/css/main.4ac23312.css.map",
+    "main.d8539abe.js.map": "/meal_cart_app/static/js/main.d8539abe.js.map"
   },
   "entrypoints": [
     "static/css/main.4ac23312.css",
