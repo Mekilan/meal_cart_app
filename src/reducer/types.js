@@ -1,0 +1,3 @@
+export const SAVE_ORDER_DETAILS = "SAVE_ORDER_DETAILS";
+export const SHIPPING_INFO = "SHIPPING_INFO";
+export const CLEAR_INFO = 'CLEAR_INFO';

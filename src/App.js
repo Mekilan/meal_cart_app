@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import MealList from "./components/MenuList";
+import MealDetail from "./components/MealDetail";
+import Header from "./components/Header";
+import { Fragment } from "react";
+import ShippingInfo from "./components/ShippingInfo";
+import OrderConfirmation from "./components/OrderConfirmation";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Header />
+      <Routes>
+        <Route path="/" element={<MealList />} />
+        <Route path="/meal/:mealId" element={<MealDetail />} />
+        <Route path="/shippinginfo" element={<ShippingInfo />} />
+        <Route path="/orderconfirmation" element={<OrderConfirmation />} />
+      </Routes>
+    </Fragment>
   );
-}
+};
 
 export default App;
