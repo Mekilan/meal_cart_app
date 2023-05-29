@@ -18,7 +18,6 @@ const MealList = () => {
         const data = await fetchMeals();
         setMeals(data.meals);
         setFilteredMeals(data.meals);
-        console.log(data.meals);
         setLoader(false);
       } catch (err) {}
     };
